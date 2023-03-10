@@ -66,14 +66,14 @@
                         {{ $result->long }}
                     </td>
                     <td>
-                        {{ $result->ward->ward_name }}
+                        {{ $result->ward_name }}
                     </td>
                     <td>
-                        {{ $result->ward->ward_description }}
+                        {{ $result->ward_description }}
 
                     </td>
                     <td>
-                        {{ $result->ward->polling_units->entered_by_user }}
+                        {{ $result->entered_by_user }}
                     </td>
                     <td>
                         {{ $result->date_entered}}
